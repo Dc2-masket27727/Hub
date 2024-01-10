@@ -1,0 +1,14 @@
+
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Gui")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Lenguage")
+
+KillingCheats:CreateButton("English", function()
+loadstring(game:HttpGet(""https://raw.githubusercontent.com/Dc2-masket27727/English-/main/Main/Color%20Block%20Run%20/masket123.exe"))()
+end)
+
+KillingCheats:CreateButton("Spanish", function(text)
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Dc2-masket27727/Spanish/main/Main/Color%20Block%20Run/masket123.exe"))()
+end)
